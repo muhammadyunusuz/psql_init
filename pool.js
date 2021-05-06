@@ -1,10 +1,10 @@
-const UserModel = require('./models/UserModel')
+const ReferalModel = require('./models/ReferalModel')
 
-let users = new UserModel()
+
 
 
 async function main () {
-    let response =  await users.getUsers()
+    let response =  await ReferalModel.createReferal("Dosti orqali")
     console.log(response);
 }
 

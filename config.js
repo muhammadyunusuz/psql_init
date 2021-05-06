@@ -6,5 +6,6 @@ module.exports = {
     PGUSER: env.PGUSER,
     PGPASS: env.PGPASS,
     PGDB: env.PGDB,
-    PGPORT: env.PGPORT
+    PGPORT: env.PGPORT,
+    PORT: env.PORT
 }
