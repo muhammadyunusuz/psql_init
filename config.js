@@ -7,5 +7,6 @@ module.exports = {
     PGPASS: env.PGPASS,
     PGDB: env.PGDB,
     PGPORT: env.PGPORT,
-    PORT: env.PORT
+    PORT: env.PORT,
+    CONNECTIONSTRING: env.CONNECTIONSTRING
 }

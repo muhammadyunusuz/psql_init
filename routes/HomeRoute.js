@@ -6,9 +6,6 @@ router.get('/', async (req, res) => {
     let users = await Users.getUsers()
     let referals = await Referals.getReferals()
 
-    console.table(users);
-    console.table(referals);
-
     res.render('index', {
         users,
         referals

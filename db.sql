@@ -13,5 +13,7 @@ CREATE TABLE referal (
     referal_name VARCHAR(64) NOT NULL
 );
 
+INSERT INTO referal(referal_name) VALUES ('instagram'), ('facebook'), ('kochadan');
+
 -- sudo -u postgres psql
 -- sudo -i -u postgres
